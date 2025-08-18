@@ -1,17 +1,34 @@
-🤖 Bot de Lembretes e Cotação
-Este é um bot simples usado para fins educacionais, mas funcional, para Telegram. Ele foi projetado para ajudá-lo a criar lembretes e consultar a cotação atual de Dólar e Bitcoin diretamente no chat.
+# 🤖 Bot de Lembretes e Cotação
 
-🚀 Funcionalidades Atuais
-Lembretes: Crie lembretes rápidos para não esquecer de tarefas, eventos ou qualquer coisa que precise ser lembrada.
+<div align="center">
+  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Discloud-7289DA?style=for-the-badge" alt="Discloud">
+  <img src="https://img.shields.io/badge/24%2F7-Online-brightgreen?style=for-the-badge" alt="24/7 Online">
+</div>
 
-Cotação de Moedas: Obtenha a cotação em tempo real de Dólar e Bitcoin, utilizando uma API pública para dados atualizados.
+<div align="center">
+  <p><strong>Bot simples e funcional para Telegram com fins educacionais</strong></p>
+  <p>Crie lembretes inteligentes e consulte cotações de moedas em tempo real diretamente no chat!</p>
+</div>
 
-Interação Básica: O bot responde a qualquer mensagem de texto com a mesma mensagem, confirmando o que você disse.
+---
 
-Envio para Site (Opcional): Possui uma função para enviar mensagens e IDs de chat para uma URL específica, permitindo integração com um site ou painel externo (requer configuração da URL_SITE no código).
+## 🚀 Funcionalidades Atuais
 
-📦 Como Instalar e Executar
-Siga os passos abaixo para configurar e rodar o bot no seu ambiente local.
+### 📝 **Lembretes Inteligentes**
+Crie lembretes rápidos para não esquecer de tarefas, eventos ou qualquer coisa que precise ser lembrada.
+
+### 💰 **Cotação de Moedas**
+Obtenha a cotação em tempo real de **Dólar** e **Bitcoin**, utilizando uma API pública para dados atualizados.
+
+### 💬 **Interação Básica**
+O bot responde a qualquer mensagem de texto com a mesma mensagem, confirmando o que você disse.
+
+### 🌐 **Envio para Site (Opcional)**
+Possui uma função para enviar mensagens e IDs de chat para uma URL específica, permitindo integração com um site ou painel externo (requer configuração da `URL_SITE` no código).
+
+---
 
 Pré-requisitos
 Python 3.10 ou superior instalado na sua máquina.
@@ -31,9 +48,8 @@ Para que seu bot fique online 24 horas por dia, você pode hospedá-lo gratuitam
 Pré-requisitos
 Uma conta na Discloud.
 
-Ter o CLI da Discloud (Command Line Interface) instalado e configurado no seu computador.
 
-Os arquivos main.py, requirements.txt e discloud.config devem estar no diretório raiz do seu projeto.
+Os arquivos main.py, requirements.txt e discloud.config devem ser zipado .zip.
 
 1. Verifique o arquivo discloud.config
 Este arquivo é essencial para a Discloud saber como rodar seu bot. Ele já está incluído neste repositório. Certifique-se de que os valores correspondem ao que você deseja para seu deploy:
@@ -60,19 +76,7 @@ AUTORESTART: Define se o bot deve reiniciar automaticamente em caso de falha.
 
 VERSION: A versão do Python a ser usada.
 
-2. Faça o login no CLI da Discloud
-Abra o terminal ou prompt de comando e execute o comando de login da Discloud:
-
-discloud login
-
-Você será instruído a colar seu token de acesso da Discloud. Você pode encontrar este token no painel da Discloud, na seção de API.
-
-3. Faça o deploy do seu bot
-Com o discloud.config no diretório do projeto e o login feito no CLI, basta executar o comando de deploy:
-
-discloud push
-
-O CLI da Discloud irá compactar e enviar todos os arquivos do seu projeto para a plataforma. A Discloud cuidará da instalação das dependências e da inicialização do bot. Em poucos minutos, seu bot estará online e acessível 24/7! Você pode acompanhar o status e os logs através do painel da Discloud.
+e envie o zip na pagina do discloud.
 
 💡 Comandos e Uso
 Uma vez que o bot esteja online, você pode interagir com ele no Telegram usando os seguintes comandos:
